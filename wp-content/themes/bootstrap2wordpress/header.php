@@ -17,8 +17,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
-    <link rel="stylesheet" href="<?php bloginfo('stylesheetdirectory'); ?>/assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheetdirectory'); ?>/assets/css/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 
 	<?php wp_head(); ?>
@@ -45,7 +45,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a href="/" class="navbar-brand">
-                            <img src="assets/img/logo.png" alt="Bootstrap/Wordpress Test"/>
+                            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Bootstrap/Wordpress Test"/>
                         </a>
                     </div>
 
