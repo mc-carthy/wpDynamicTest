@@ -14,7 +14,7 @@ get_header(); ?>
                             <img src="<?php bloginfo('stylesheet_directory');?>/assets/img/logo-badge.png" alt="Bootstrap To Wordpress" class="logo"/>
                         </div>
                         <div class="col-sm-7 hero-text">
-                            <h1>Bootstrap To Wordpress</h1>
+                            <h1><?php bloginfo('name');?></h1>
                             <p class="lead">Earn An Extra $1k - $5k per Month by 
                                 Learning to Code Your Very Own Responsive &amp; 
                                 Custom Wordpress Websites with Bootstrap
