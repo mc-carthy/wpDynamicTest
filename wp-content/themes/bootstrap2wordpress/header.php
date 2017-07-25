@@ -51,7 +51,7 @@
 
                     <?php
                         wp_nav_menu(array(
-                            'theme_location' => 'priamry',
+                            'display_location' => 'priamry',
                             'container' => 'nav',
                             'container_class' => 'navbar-collapse collapse',
                             'menu_class' => 'nav navbar-nav navbar-right'
